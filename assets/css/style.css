@@ -4,6 +4,7 @@
     font-size: 18px;
     color: var(--db-dark);
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: rem;
 }
 
 :root {
@@ -29,13 +30,10 @@
     margin: 0 -1rem;
 }
 
-[class^="col"] {
-    padding: 1rem;
+.align_text {
+    margin-bottom: 2rem;
 }
 
-.head_align_text {
-    padding-top: 0.25rem;
-}
 
 [class^="col"] {
     display: flex;
@@ -60,7 +58,59 @@
     width: calc(100% / 12 * 5);
 }
 
+.col_6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col_7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col_8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col_9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col_10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col_11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col_12 {
+    width: 100%;
+}
+
 /* layout */
+
+/* text format */
+
+h1 {
+    font-size: 92px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+.symbol {
+    font-size: 48px;
+}
+
+.arw_dwn {
+    margin-top: 7.5rem;
+}
+
+/* /text format */
 
 /* buttons */
 
@@ -68,8 +118,6 @@
     color: var(--db-light);
     background-color: var(--db-highlight);
     padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-
 }
 
 /* /buttons */
@@ -78,10 +126,15 @@
 /* #endregion utility */
 
 header {
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
     position: fixed;
-    width: 100%;
+    top: 0;
+    width: 99%;
     background-color: var(--db-bg-light);
+
+    .head_align_text {
+        padding-top: 0.25rem;
+    }
 
     .head_bar {
         justify-content: space-between;
@@ -91,6 +144,41 @@ header {
             height: 30px;
         }
     }
+
+    .fix4space_headbtn {
+        margin: 0 0.5rem;
+    }
 }
 
-main {}
+
+
+
+main {
+    #jumbotron {
+        margin-top: 4.5rem;
+        background-color: var(--db-jumbo-bg);
+
+        #jumbo_text * {
+            line-height: 1.5rem;
+            padding-right: 1rcap;
+        }
+
+        .jumbo_margin {
+            margin: 0 350px;
+        }
+
+        #Jumbo_desc {
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+    }
+
+    #temp {
+        background-color: var(--db-bg-light);
+        margin-top: -2rem;
+    }
+
+    #fix_da_weirdo {
+        padding-top: 2rem;
+    }
+}
