@@ -1,5 +1,9 @@
+/* #region common */
 * {
     margin: 0;
+    font-size: 18px;
+    color: var(--db-dark);
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 :root {
@@ -12,8 +16,12 @@
     --db-bg-dark: #000000;
 }
 
+/* #endregion common */
 
-/* #section layout */
+
+/* #region utlity */
+
+/* layout */
 
 .row {
     display: flex;
@@ -25,6 +33,20 @@
     padding: 1rem;
 }
 
+.head_align_text {
+    padding-top: 0.25rem;
+}
+
+[class^="col"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col_2 {
+    width: calc(100% / 12 * 2);
+}
+
 
 .col_3 {
     width: calc(100% / 12 * 3);
@@ -34,25 +56,41 @@
     width: calc(100% / 12 * 4);
 }
 
-/* #endsection layout */
+.col_5 {
+    width: calc(100% / 12 * 5);
+}
+
+/* layout */
+
+/* buttons */
+
+.btn_hl {
+    color: var(--db-light);
+    background-color: var(--db-highlight);
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+
+}
+
+/* /buttons */
+
+
+/* #endregion utility */
 
 header {
     padding: 1rem 0.5rem;
-
+    position: fixed;
+    width: 100%;
+    background-color: var(--db-bg-light);
 
     .head_bar {
         justify-content: space-between;
-
-        [class^="col"] {
-            display: flex;
-            align-content: center;
-            justify-content: space-between;
-        }
+        margin: 0 1rem;
 
         .logo {
             height: 30px;
-            position: relative;
-            top: 5px;
         }
     }
 }
+
+main {}
