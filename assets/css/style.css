@@ -260,8 +260,6 @@ main {
             margin: 2rem 1rem;
             height: 1100px;
 
-
-
             .card_trial {
                 margin: 2rem 0;
                 line-height: 3rem;
@@ -287,17 +285,6 @@ main {
             }
         }
 
-        .l_card {
-            margin-left: 0;
-        }
-
-        .c_card {
-            margin: 2rem 0.5rem;
-        }
-
-        .r_card {
-            margin-right: 0;
-        }
 
         .card_head {
             text-align: center;
@@ -324,6 +311,30 @@ main {
                     margin: 2rem 0;
                 }
             }
+        }
+
+        .operations {
+            margin: 2rem 1rem;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                margin: 2rem 0;
+            }
+        }
+
+        .l_card {
+            margin-left: 0;
+        }
+
+        .c_card {
+            margin: 2rem 0.5rem;
+        }
+
+        .r_card {
+            margin-right: 0;
         }
 
 
