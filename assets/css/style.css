@@ -4,7 +4,6 @@
     font-size: 18px;
     color: var(--db-dark);
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
 
 :root {
@@ -24,11 +23,6 @@
 /* #region utlity */
 
 /* layout */
-
-.d_flex {
-    display: flex;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -50,16 +44,9 @@
     padding-top: 2rem;
 }
 
-.col_df {
+.df_sb {
     display: flex;
     justify-content: space-between;
-}
-
-
-
-
-.col_2 {
-    width: calc(100% / 12 * 2);
 }
 
 .col_3 {
@@ -70,32 +57,12 @@
     width: calc(100% / 12 * 4);
 }
 
-.col_5 {
-    width: calc(100% / 12 * 5);
-}
-
-.col_6 {
-    width: calc(100% / 12 * 6);
-}
-
 .col_7 {
     width: calc(100% / 12 * 7);
 }
 
 .col_8 {
     width: calc(100% / 12 * 8);
-}
-
-.col_9 {
-    width: calc(100% / 12 * 9);
-}
-
-.col_10 {
-    width: calc(100% / 12 * 10);
-}
-
-.col_11 {
-    width: calc(100% / 12 * 11);
 }
 
 .col_12 {
@@ -290,13 +257,8 @@ main {
             border-bottom: 1px solid var(--db-card-border);
         }
 
-        #b_card_align {
-            display: flex;
-            justify-content: space-between;
-
-            #bc_btn_align {
-                margin-top: 3.25rem;
-            }
+        #bc_btn_align {
+            margin-top: 3.25rem;
         }
 
         .howdy {
@@ -373,11 +335,6 @@ footer * {
         list-style-type: none;
         padding-left: 0;
     }
-
-    hr {
-        margin: 5rem 0 2rem;
-        width: 100px;
-    }
 }
 
 footer {
@@ -387,8 +344,9 @@ footer {
         padding: 2rem 0;
     }
 
-    .d_flex {
-        justify-content: space-between;
+    hr {
+        margin: 5rem 0 2rem;
+        width: 100px;
     }
 }
 
