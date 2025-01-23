@@ -56,6 +56,9 @@
     justify-content: space-between;
 }
 
+
+
+
 .col_2 {
     width: calc(100% / 12 * 2);
 }
@@ -314,18 +317,15 @@ main {
         }
 
         .operations {
-            margin: 2rem 1rem;
-            display: flex;
-            flex-direction: column;
-            height: 450px;
-            align-items: baseline;
+            margin: 1rem;
 
             img {
-                width: 100%;
+                height: 250px;
             }
 
             p {
                 margin: 2rem 0;
+                line-height: 1.25rem;
             }
         }
 
@@ -342,6 +342,10 @@ main {
         }
 
 
+    }
+
+    .section_spacing_align {
+        margin: 3rem 0 10rem 0;
     }
 
 }
