@@ -29,11 +29,6 @@
     display: flex;
 }
 
-.d_flex_col {
-    display: flex;
-    flex-direction: column;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +36,10 @@
 
 .align_text {
     margin-bottom: 2rem;
+}
+
+.jumbo_margin {
+    margin: 0 350px;
 }
 
 #mainer_align {
@@ -228,10 +227,6 @@ main {
             padding-right: 1rcap;
         }
 
-        .jumbo_margin {
-            margin: 0 350px;
-        }
-
         #Jumbo_desc {
             flex-wrap: wrap;
             margin: 2rem 0;
@@ -349,6 +344,10 @@ main {
             margin-right: 0;
         }
 
+        .r_card2 {
+            margin: 13px 0;
+        }
+
 
     }
 
@@ -362,5 +361,35 @@ main {
 
 
 /* #region footer */
+footer * {
+    color: var(--db-light);
+    line-height: 2rem;
+
+    h3 {
+        margin: 1rem 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    hr {
+        margin: 5rem 0 2rem;
+        width: 100px;
+    }
+}
+
+footer {
+    background-color: var(--db-bg-dark);
+
+    .jumbo_margin {
+        padding: 2rem 0;
+    }
+
+    .d_flex {
+        justify-content: space-between;
+    }
+}
 
 /* #endregion footer */
