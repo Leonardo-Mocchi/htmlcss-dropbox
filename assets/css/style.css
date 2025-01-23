@@ -315,6 +315,10 @@ main {
 
         .operations {
             margin: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            align-items: baseline;
 
             img {
                 width: 100%;
