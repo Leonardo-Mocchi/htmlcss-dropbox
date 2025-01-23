@@ -33,6 +33,7 @@
             </div>
         </nav>
     </header>
+    <!-- /header -->
 
     <main>
         <div id="jumbotron">
@@ -52,7 +53,7 @@
                                 integrato per ottimizzare il flusso di lavoro esistente.</p>
                             <span class="btn_hl fix">Inizia la tua prova gratuita</span>
                             <div class="fix_da_weirdo"> Annulla in qualsiasi momento</div>
-                            <i class="fa fa-arrow-down symbol arw_dwn" aria-hidden="true"></i>
+                            <i class="fa fa-arrow-down arw_dwn" aria-hidden="true"></i>
 
                         </div>
                     </div>
@@ -64,75 +65,142 @@
             <div id="mainer_align">
                 <h2 class="row">Trova il piano business che fa per te</h2>
                 <div id="payment_frequency" class="row">
-                    <i class="fa-solid fa-circle-dot btn_circ_checkd"></i> <span> Fatturazione mensile</span>
-                    <i class="fa-solid fa-circle btn_circ_uncheckd"></i> <span> Fatturazione annuale</span>
+                    <div><i class="fa-solid fa-circle-dot btn_circ_checkd"></i> <span>Fatturazione mensile</span></div>
+                    <div><i class="fa-solid fa-circle btn_circ_uncheckd"></i> <span>Fatturazione annuale</span></div>
                 </div>
-                <div class="row payment_plan">
+                <div class="row">
                     <div class="col_4">
                         <div class="p_plan_card l_card">
-                            <div>Singolo</div>
-                            <h3>Professional</h3>
-                            <div>&euro; 12.00 <br>
-                                /mese</div>
-                            <div>1 utente</div>
-                            <div>5 TB di spazio di archiviazione sicuro</div>
-                            <div>Funzioni di produttività premium e condivisione file semplice e
-                                sicura
+                            <div class="card_head"> <i class="fa-solid fa-user"></i> Singolo</div>
+                            <div class="card_type">
+                                <h3>Professional</h3>
+                                <div>&euro; 12.00 <br>
+                                    /mese</div>
                             </div>
-                            <span class="btn_hl align_text">Prova gratis per 30 giorni</span>
-                            <div class="align_text fix_da_weirdo">oppure <span>acquista ora</span></div>
-
-                            <div>Punti Salienti del piano</div>
-                            <div>Invia file fino a 100GB con Dropbox Transfert</div>
-                            <div>Cartelle offline su dispositivi mobili</div>
+                            <strong>
+                                <ul class="fa-ul">
+                                    <li class="fa_li"><i class="fa-solid fa-user"></i>
+                                        <p>1 utente</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-folder"></i>
+                                        <p>5 TB di spazio di archiviazione sicuro</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-share-alt"></i>
+                                        <p>Funzioni di produttività premium e condivisione file semplice e sicura
+                                        </p>
+                                    </li>
+                                </ul>
+                            </strong>
+                            <div class="card_trial">
+                                <span class="btn_hl">Prova gratis per 30 giorni</span> <br>
+                                oppure <span class="link">acquista ora</span>
+                            </div>
+                            <div>
+                                <strong>Punti Salienti del piano</strong>
+                                <ul class="fa-ul">
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Invia file fino a 100GB con Dropbox Transfert</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Cartelle offline su dispositivi mobili</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col_4 ">
                         <div class="p_plan_card">
-                            <div>Team</div>
-                            <h3>Advanced</h3>
-                            <div>&euro; 18.00</div>
-                            <div>/mese</div>
-                            <div>3 o pi&ugrave; utenti</div>
-                            <div>Tutto lo spazio di cui ha bisogno il tuo team</div>
-                            <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                            <div class="card_head"><i class='fas fa-users'></i> Team</div>
+                            <div class="card_type">
+                                <h3>Advanced</h3>
+                                <div>&euro; 18.00</div>
+                                <div class="less-important">/utente/mese</div>
                             </div>
-                            <span class="btn_hl align_text">Prova gratis per 30 giorni</span>
-                            <div class="align_text fix_da_weirdo">oppure <span>acquista ora</span></div>
+                            <strong>
+                                <ul>
+                                    <li class="fa_li"> <i class='fas fa-users'></i>
+                                        <p>3 o pi&ugrave; utenti</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-folder"></i>
+                                        <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-share-alt"></i>
+                                        <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo
+                                            team</p>
+                                    </li>
+                                </ul>
+                            </strong>
+                            <div class="card_trial"><span class="btn_hl">Prova gratis per 30 giorni</span> <br>
+                                oppure <span class="link">acquista ora</span>
+                            </div>
 
-                            <div>Punti Salienti del piano
+                            <div>
+                                <strong>Punti Salienti del piano</strong>
                                 <ul class="fa_ul">
-                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Nessun limite di spazio per
-                                        i file</li>
-                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Cartelle offline su
-                                        dispositivi mobili</li>
-                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Risparmio del 50&#37;
-                                        rispetto alle iscrizioni singole</li>
-                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Possibilit&agrave; di
-                                        inserire nuovi membri del team</li>
-                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Gestione dei permessi in
-                                        base ai ruoli</li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Nessun limite di spazio per i file</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Cartelle offline su
+                                            dispositivi mobili</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Risparmio del 50&#37;
+                                            rispetto alle iscrizioni singole</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Possibilit&agrave; di
+                                            inserire nuovi membri del team</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Gestione dei permessi in
+                                            base ai ruoli</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col_4">
                         <div class="p_plan_card r_card">
-                            <div>Singolo</div>
-                            <h3>Professional</h3>
-                            <div>&euro; 12.00</div>
-                            <div>/mese</div>
-                            <div>1 utente</div>
-                            <div>5 TB di spazio di archiviazione sicuro</div>
-                            <div>Funzioni di produttività premium e condivisione file semplice e
-                                sicura
+                            <div class="card_head"><i class="fas fa-building"></i> Azienda</div>
+                            <div class="card_type">
+                                <h3>Enterprise</h3>
+                                <div>contattaci</div>
+                                <div class="less-important">-</div>
                             </div>
-                            <span class="btn_hl align_text">Prova gratis per 30 giorni</span>
-                            <div class="align_text fix_da_weirdo">oppure <span>acquista ora</span></div>
+                            <ul><strong>
+                                    <li class="fa_li"><i class="fa-solid fa-user"></i>
+                                        <p>10 o pi&ugrave; utent1</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-folder"></i>
+                                        <p>Soluzioni personalizzabili per la tua azienda</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fas fa-share-alt"></i>
+                                        <p>Assistenza personalizzata per aiutare gli amministratori in una gestione su
+                                            larga scala</p>
+                                    </li>
+                                </strong>
+                            </ul>
+                            <div class="card_trial">
+                                <span class="btn_hl">Contattaci</span>
+                                oppure <span class="link">acquista ora</span>
+                            </div>
 
-                            <div>Punti Salienti del piano</div>
-                            <div>Invia file fino a 100GB con Dropbox Transfert</div>
-                            <div>Cartelle offline su dispositivi mobili</div>
+                            <div>
+                                <strong>Punti Salienti del piano</strong>
+                                <ul class="fa_ul">
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Cartelle offline su
+                                            dispositivi mobili</p>
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>Servizio assistenza 24/h
+                                    </li>
+                                    <li class="fa_li"><i class="fa-solid fa-check check"></i>
+                                        <p>Possibilit&agrave; di
+                                            personalizzazione totale</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,7 +208,15 @@
 
         </div>
     </main>
+    <!-- /main -->
 
+
+    <ul>ajoooo
+        <li class="d-flex">
+            <i class="fa-solid fa-check check"></i>
+            <p>bznznz</p>
+        </li>
+    </ul>
     <footer></footer>
 
 </body>
