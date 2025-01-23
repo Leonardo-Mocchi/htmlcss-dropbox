@@ -319,8 +319,12 @@ main {
         .operations {
             margin: 1rem;
 
-            img {
-                height: 250px;
+            div {
+                height: 350px;
+
+                img {
+                    width: 100%;
+                }
             }
 
             p {
@@ -335,6 +339,10 @@ main {
 
         .c_card {
             margin: 2rem 0.5rem;
+        }
+
+        .c_card2 {
+            margin: 0.9rem 0.5rem;
         }
 
         .r_card {
