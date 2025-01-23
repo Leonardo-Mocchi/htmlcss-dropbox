@@ -178,6 +178,11 @@ ul {
     padding: 0.75rem 5.7rem;
 }
 
+.btn_mt {
+    border: 1px solid black;
+    padding: 0.75rem 1rem;
+}
+
 /* /buttons */
 
 
@@ -208,8 +213,7 @@ header {
     }
 }
 
-
-main * {}
+/* #region main */
 
 main {
     #jumbotron {
@@ -241,7 +245,7 @@ main {
 
     }
 
-    #db_plans_business {
+    #db_business {
         background-color: var(--db-bg-light);
         margin-top: -4rem;
         padding-top: 10rem;
@@ -272,7 +276,6 @@ main {
                 margin-bottom: 1rem;
             }
         }
-
 
         #card_bottom {
             border: 1px solid var(--db-card-border);
@@ -311,12 +314,26 @@ main {
             }
         }
 
+        .howdy {
+            margin: 10rem 0;
+
+            .pardner_text {
+                margin: 2rem;
+
+                p {
+                    margin: 2rem 0;
+                }
+            }
+        }
 
 
     }
 
-
-
-
-
 }
+
+/* #endregion main */
+
+
+/* #region footer */
+
+/* #endregion footer */
